@@ -2,7 +2,8 @@
   "name": "mrnolan.com",
   "scripts": {
     "build": "gatsby build",
-    "start": "gatsby develop"
+    "start": "gatsby develop",
+    "deploy": "firebase deploy --only hosting:mrnolan-com"
   },
   "dependencies": {
     "gatsby": "^3.13.0",
