@@ -32,5 +32,5 @@ const Title = styled.h1`
 `;
 
 const Image = styled.img`
-  height: 50%;
+  width: 100%;
 `;
