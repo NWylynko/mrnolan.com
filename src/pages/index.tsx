@@ -2,10 +2,12 @@ import React from "react"
 import styled from "styled-components"
 import '../base.css'
 import nolanImg from "../images/mrnolan2.png"
+import { Helmet } from 'react-helmet'
 
 export default function IndexPage() {
   return (
     <Container>
+      <Helmet title="MrNolan.com" />
       {/* <Title>Hello Mr Nolan</Title> */}
       <Image src={nolanImg} alt="Mr Nolan with beard" />
     </Container>
