@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import '../base.css'
-import nolanImg from "../images/mrnolan.png"
+import nolanImg from "../images/mrnolan2.png"
 
 export default function IndexPage() {
   return (

@@ -3,7 +3,7 @@
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
-    "deploy": "rm -r public && yarn build && firebase deploy --only hosting:mrnolan-com"
+    "deploy": "rm -r public; yarn build && firebase deploy --only hosting:mrnolan-com"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.2",
